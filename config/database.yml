@@ -83,3 +83,6 @@ production:
   database: picckle_production
   username: picckle
   password: <%= ENV['PICCKLE_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
